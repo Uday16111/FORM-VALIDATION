@@ -1,0 +1,29 @@
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  }
+  body {
+    background-color:rgb(40, 195, 229);
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(13, 20, 236);
+    width: 600px;
+    height: 500px;
+    
+    text-decoration-color: rgb(226, 255, 80);
+    box-shadow: 2px 4px 10px rgb(153, 199, 201);
+    border: 1px solid rgb(51, 204, 9);
+    border-radius: 20px;
+    padding: 20px;
+  }
